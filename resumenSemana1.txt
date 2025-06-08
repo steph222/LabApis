@@ -1,0 +1,41 @@
+SEMANA 1 - PROYECTO FINAL
+=============================
+
+1️⃣ ESTRUCTURA HTML BÁSICA
+---------------------------
+<html>
+<head>
+    <title>Login - Semana 1</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <form>
+        Usuario: <input type='text' name='usuario'><br>
+        Contraseña: <input type='password' name='password'><br>
+        <input type='submit' value='Iniciar Sesión'>
+    </form>
+</body>
+</html>
+
+2️⃣ SCRIPT PYTHON INICIAL
+--------------------------
+# archivo: login.py
+def login(usuario, contraseña):
+    if usuario == 'admin' and contraseña == '1234':
+        return 'Acceso concedido'
+    else:
+        return 'Acceso denegado'
+
+print(login('admin', '1234'))
+
+3️⃣ DESCRIPCIÓN DE LA SEMANA
+----------------------------
+Durante esta semana aprendimos a:
+- Crear un repositorio en GitHub
+- Clonar repositorios y crear ramas
+- Usar HTML para una estructura básica de login
+- Usar Python para simular validación de credenciales
+- Hacer commit, push y pull request
+
+Este archivo representa un resumen de los avances de la Semana 1 para el Proyecto Final.
+
